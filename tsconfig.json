@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"declaration": true,
+		"declarationDir": "dist",
+		"allowSyntheticDefaultImports": true,
+		"target": "es6",
+		"module": "commonjs",
+		"preserveSymlinks": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"typeRoots": [
+			"node_modules/@types"
+		],
+		"lib": [
+			"ESNext"
+		]
+	},
+	"exclude": ["tests", "dist"],
+	"include": ["lib/**/*.ts"]
+}
